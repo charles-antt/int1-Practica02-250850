@@ -1,0 +1,6 @@
+# aboutme
+
+# Acerca de mi...  
+---
+
+Soy estudiante de la carrera de T.S.U en Desarrollo d eSoftware Multiplataforma, actualmente curso el ***3er*** cuatrimeste de la carrera, quiero aprender a ser un excelente programador, ser millornario y hackear la NASA 🚀👾... 

@@ -164,3 +164,45 @@ Pasos para instalar MySQL
 > - Conectarnos a la base de datos para verificar que se instaló correctamente 
 
 - Bloques de Código 
+
+Es común que en la documentación del proyecto de software damos al usuario un par de instrucciones de como instalar, configurar, desplegar y testear (pruebas), nuestro producto como desarrollador. Por tal motivo el estandar de markdown nos permite enfatizar estas instrucciones, simulando estar en una terminal de sistema operativo ,para delmimitgar este codigpo basta con encerrarlos con triples caracteres de bacltic (acento o tilde inversa ``` ` ```)
+
+Ejemplo: 
+Para clonr el proyecto ingresa la siguiente instruccion 
+```
+https://github.com/charles-antt/int1-Practica02-250850.git
+``` 
+
+
+A diferencia de los bloques de citas, la tipografía y el siginificado asociado cambian 
+
+### 7.- Tablas 
+
+en caso de que necesitemos estructurra datos o información relevante para ñla documentación podemos utilizar el formtado de tablas, para lo que tenemos que considerar la estructura base de una tabla: 
+
+- Usar | para delimitar las columnas 
+- Usa --- para sepaarar las filas del encabezado 
+
+Ejemplo:
+|titulo 1 | Titulo 2 | Titulo 3 | Titulo 4 |
+|---|---|---|---|
+| Fila 1, Columna 1| Fila 1, Columna 2 | Fila 1, Columna 3 | Fila 1, Columna 4|
+| Fila 2, Columna 1| Fila 2, Columna 2 | Fila 2, Columna 3 | Fila 1, Columna 4|
+| Fila 3, Columna 1| Fila 3, Columna 2 | Fila 3, Columna 3 | Fila 1, Columna 4|
+| Fila 3, Columna 1| Fila 4, Columna 2 | Fila 4, Columna 3 | Fila 1, Columna 4|
+
+### 8.- Hipervinculos (Links)
+
+Para poder hacer referencia a documentos internos o externos dentro del repositorio, debemos respetar la siguiente estructura 
+
+``` 
+[Texto que el usuario leera](url a donde te dirigira) "texto que aparecera cuando el cursor este sobre la liga"
+```
+
+Ejemplo: 
+
+- Ligas externas 
+[Google ](http://google.com)
+
+-Ligas internas 
+[Acera de Autor](./aboutme.md "Cónoceme más")
