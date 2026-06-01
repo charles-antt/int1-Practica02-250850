@@ -231,3 +231,22 @@ Cambiando la estructura con por la etiqueta ``` <img> ```
 Ejemplo: 
 
 <img src="./imagenes/image.png" width="350" height="350" >
+
+### 10.- Notal del pie 
+
+### [Footnotes](https://github.com/markdown-it-/markdown-it-footnote)
+
+Si muestra documentación requiere ubicar notas de importancia o relevancia posterior, podemos usar notas al pie de manera dinamica 
+
+Notas al pie 1[^first]
+
+Nota al pie 2[^Second]
+
+Referencua al pie dentro de un parrafo  ^[Nota interna] extenso dentro de nuestra documentación 
+
+Segunda referencia la nota 2 [^Second]
+
+[^first]: Njota al pie **Puede ser formateada**
+
+ y tener múltiples líneas de párrafo 
+ [^Second]: Texto de la segunda nota al pie
