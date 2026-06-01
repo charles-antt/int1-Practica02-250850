@@ -206,3 +206,28 @@ Ejemplo:
 
 -Ligas internas 
 [Acera de Autor](./aboutme.md "Cónoceme más")
+
+### 9.- Imagenes 
+
+El estandar de markdown nos permite incrustar imagenes dentro de nuestra documentacion lo que nos permitira poner logotipos, capturas de pantalla o cualquier archivo fráfico importante. 
+
+La estrucutura varia un poco de las rederencias de hipervinculos, siento:
+
+``` 
+![Texto que el usuario leera](url donde se encuentra la imagen ) 
+```
+
+Ejemplo:
+![Si tu te vas - Charles Ans](./imagenes/image.png)
+
+Es importante enteder que la resolución de la imagen será la original del archivo 
+
+***Tip PRO***
+
+Si el tamaño dle imagen no se justa a lo que deseas para tu documento, lo más recomnendable es ajustar el tamaño del archivo original con algun siftware procesador de imagenes como: PaInt, Illustrator, Int o Photodhop, pero si qyuiere modificarlos desde el codigo, el estandar no tiene parametros definidos por lo que necesitaremos hechar lines de codigo html 
+
+Cambiando la estructura con por la etiqueta ``` <img> ``` 
+
+Ejemplo: 
+
+<img src="./imagenes/image.png" width="350" height="350" >
