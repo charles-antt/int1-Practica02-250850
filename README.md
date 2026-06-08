@@ -250,3 +250,16 @@ Segunda referencia la nota 2 [^Second]
 
  y tener múltiples líneas de párrafo 
  [^Second]: Texto de la segunda nota al pie
+
+
+### 11.-  Abreviaciones 
+
+Este es un ejemplo de abreviatura HTML 
+Convierte "HTML", pero mantiene intactactas entradas parciales como "xxxHTMLyyy" y demás. 
+*[HTML] Lenguaje de marcado de Hipertexto 
+
+### 12.- Contenedores Personalizados 
+
+::: advertencias 
+*Aqui hay dragoones* 
+:::
